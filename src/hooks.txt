@@ -1,0 +1,15 @@
+WHAT ARE REACT HOOKS?
+
+=> Features of class based components in function based components
+=> Allow us to use state and other React features without writing a class
+=> Hooks are the functions which "Hook into" React state and lifecycle features from function components
+
+
+useState -  useful in changing the state
+
+useEffect - useful in performing side effects. We can perform the actions we were performing in componentDidMount().
+For example, if we update our text (state change) and we want to show an alert after the text is updated so d=for that we can use useEffect
+
+useContext - useful in using context API. Context API i suseful when there are a lot of nested props and there is an enormous prop tree. In such cases, context API helps in making the functions global so that we do not have to struggle to access the functions
+
+useRef - returns a mutable reference object, which has a ".current" property, which we can point to any property in the DOM.

@@ -1,0 +1,14 @@
+React Component Lifecycle
+=>Mounting - Birth of the Component
+=>Update - Growth and Development of the Component
+=>Unmounting - Death of the Component
+
+Methods in React Component Lifecycle
+=>render() - it is used to render HTML in react, that  is render the JSX to the DOM. It runs f=during the mounting and updating of the component. render() method is a pure method.
+// A pure method does not change/modify the state inside it.
+
+=>componentDidMount() - It runs after the component output has been rendered to the DOM, that is, after the render() function has been run.
+
+=> componentDidUpdate() - It is invoked a soon as the updating happens. The most common use of this function is updating the DOM inres ponse to prop or state changes.
+
+=> componentWillUnmount() - lifecycle method which is invoked just before the component is unmounted and destroyed. Usually used to perform cleanups.
